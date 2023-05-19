@@ -32,3 +32,8 @@ body {
   border-color: red;
   height: 100vh;
 }
+
+.border {
+  border: dashed;
+  border-color: blueviolet;
+}
