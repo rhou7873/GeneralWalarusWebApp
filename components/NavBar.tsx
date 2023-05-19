@@ -14,11 +14,11 @@ const navItems: NavItem[] = [
 
 function NavBar() {
   return (
-    <AppBar className="border">
+    <AppBar className="border relative">
         <Toolbar>
             {navItems.map(item => {
             return (
-                <MenuItem>
+                <MenuItem key={item.title}>
                     <Typography>{item.title}</Typography>
                 </MenuItem>
             )
